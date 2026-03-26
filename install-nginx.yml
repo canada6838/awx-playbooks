@@ -1,7 +1,11 @@
 - name: Install Nginx
   hosts: all
+<<<<<<< HEAD
   #become: yes
   tasks:
+=======
+    tasks:
+>>>>>>> 003180b (Removed sudo for AWX container)
     - name: Install nginx
       apt:
         name: nginx
